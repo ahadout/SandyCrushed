@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(70, 70, 202);
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+header h1{
+    text-align: center;
+    color: white;
+}
+.section1{
+    border: 2px blue solid ;
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 60% 10% 10%;
+}
+.container{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+    border: 2px red solid;
+    border-radius: 10px;
+}
+.table tr td{
+    padding: 15px;
+    border: 1px black solid;
+    cursor: pointer;
+}
+.green{
+    background-color: greenyellow;
+}
+.firstA{
+    border-top-left-radius: 10px;
+}
+.lastA{
+    border-top-right-radius: 10px;
+}
+.firstF{
+    border-end-start-radius: 10px;
+}
+.lastF{
+    border-end-end-radius: 10px;
+}
+.btn1{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    justify-self: center;
+    align-self: center;
+    padding: 10px 25px;
+    background-color: green;
+    border: none;
+    border-radius: 6px;
+    color: rgb(254, 255, 224);
+}
+.btn1:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+.timerScore{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
